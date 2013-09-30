@@ -67,6 +67,7 @@ readers()
         data["ptf"]=readPTC;
         data["itbl"]=readBGEO;
         data["atbl"]=readBGEO;
+        data["xyzc"]=readXYZC;
     }
     return data;
 }
