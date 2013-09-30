@@ -68,6 +68,7 @@ readers()
         data["itbl"]=readBGEO;
         data["atbl"]=readBGEO;
         data["xyzc"]=readXYZC;
+        data["xyzi"]=readXYZI;
     }
     return data;
 }
