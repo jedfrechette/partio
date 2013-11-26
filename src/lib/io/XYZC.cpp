@@ -183,9 +183,9 @@ ParticlesDataMutable* readXYZC(const char* filename,const bool headersOnly)
 					if (attrs[attrIndex].name == "pointColor")
 					{
 						// 8 bit color  conversion
-						data[0]=lineData[4]/255;
-						data[1]=lineData[5]/255;
-						data[2]=lineData[6]/255;
+						data[0]=lineData[3]/255;
+						data[1]=lineData[4]/255;
+						data[2]=lineData[5]/255;
 					}
 					else if (attrs[attrIndex].name == "position")
 					{
